@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/addStudent"
+    android:background="@drawable/mm"
+    tools:context="com.app.mark.marks1.fragments.AddStudent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/studentname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="اسم الطالبة"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/enterstudent"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/enterstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إدخال"
+        android:textColor="@color/white"
+        android:background="@drawable/button_selector"
+        android:layout_marginBottom="183dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="رجوع"
+        android:textColor="@color/white"
+        android:background="@drawable/button_selector"
+        android:layout_below="@+id/studentname"
+        android:layout_alignStart="@+id/enterstudent"
+        android:layout_marginTop="62dp" />
+
+</RelativeLayout>

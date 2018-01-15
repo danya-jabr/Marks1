@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listStudents"
+    android:background="@drawable/mmm"
+    tools:context="com.app.mark.marks1.fragments.StudentsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@android:drawable/ic_input_add"
+    android:tint="@color/dandan"
+    app:backgroundTint="@color/dan"
+    app:fabSize="normal"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview"
+        android:scrollbars="none|vertical"></android.support.v7.widget.RecyclerView>
+</RelativeLayout>
